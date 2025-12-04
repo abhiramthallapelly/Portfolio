@@ -1,0 +1,112 @@
+body{
+    background-color: #060026;
+    color:rgb(255, 254, 254);
+    font-family: "Poppins", sans-serif;
+}
+/*---------------------------------------------------------------------------------------------*/
+.heading{
+    display:flex;
+    text-align:center; 
+    padding: 2px 50px; 
+    justify-content: space-between;     /* heading styling */
+    align-items: center;
+    
+}
+
+button{
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 80px;
+    background: rgb(16, 139, 255);  /* heading buttons styling */
+    font-weight: 600;
+    transition: .3s;
+    
+}
+/*---------------------------------------------------------------------------------------------*/
+
+
+.container
+{
+    display:flex;
+    align-items:center;
+    gap: 100px;
+    text-align: start;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    background-color: rgb(16, 139, 255);    /* introduction styling */
+    margin:10px;
+    padding-left: 60px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}
+.container img{
+    width:250px;
+    border-radius: 10px;    /* image styling */
+    margin: 50px;
+    
+    
+}
+.container button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 80px;
+    background: rgb(255, 255, 255);  /* heading buttons styling */
+    font-weight: 600;
+    transition: .3s;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+.skillsdata
+{
+    display: flex;
+    gap:50px;
+    justify-content: center;        /* overall skills styling */
+    
+}
+.skillsdata img{
+    width: 70px;                    /* each skill image styling */
+    border-radius: 15px;
+    
+}
+.skill{
+    border-radius: 50px;
+    background-color: rgb(16, 139, 255);        /*  each skill styling */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+.projectlist{
+    display: flex;
+    justify-content: center;  /*  style all projects at a time */
+    gap:50px;
+    
+}
+.project {
+    width:500px ;
+    border-radius: 15px;
+    background-color:rgb(16, 139, 255) ;   /*  each project styling */
+    text-align: center;
+    padding:20px;
+
+}
+.projectlist button{
+    background-color: white;
+    align-items: center;                    /*  buttons styling in the projects */
+    border-radius: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
